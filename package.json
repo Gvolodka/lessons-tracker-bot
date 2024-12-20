@@ -1,0 +1,28 @@
+{
+  "name": "lessons-tracker-bot",
+  "version": "1.0.0",
+  "description": "This bot helps you track the time you spend learning something of your own choice. Practice makes perfect!",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "author": {
+    "name": "Vladimir Grigorishin",
+    "email": "volodka.grigor@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/menu": "^1.3.0",
+    "@grammyjs/storage-free": "^2.4.2",
+    "googleapis": "^105.0.0",
+    "grammy": "^1.11.2",
+    "node-cron": "^3.0.3",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

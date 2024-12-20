@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: .
+    ports:
+      - 3322:80
+    environment:
+      DEBUG: 'grammy*'
+      BOT_CREDENTIALS: './telegram-creds.json'
+      GOOGLE_APPLICATION_CREDENTIALS: './google-creds.json'
